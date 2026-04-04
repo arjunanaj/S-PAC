@@ -585,7 +585,7 @@
     <script >
     
         (function () {
-            emailjs.init("YOUR_PUBLIC_KEY");
+            emailjs.init("vgw9DlDarYI3rzrZU");
         })();
 
         const form = document.getElementById("contact-form");
@@ -601,7 +601,7 @@
             submitBtn.innerHTML = `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...`;
             submitBtn.disabled = true;
 
-            emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form)
+            emailjs.sendForm("S-Pac_td3kfa9", "S-Pac_wjxzbed", form)
                 .then(function () {
                     // ✅ Reset form
                     form.reset();
